@@ -5,14 +5,7 @@ body {
   margin-right : 5em;
 }
 .katex {
-  font-size : 1.4em;
+  font-size : 1.5em;
 }
 
-/* for smart phone */
-
-@media screen and (max-width: 480px){
-  .katex {
-    font-size : 3em;
-  }
-}
 
