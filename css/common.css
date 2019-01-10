@@ -1,11 +1,33 @@
 @charset "utf-8";
+
 body {
   background-color : wheat;
   margin-left : 5em;
   margin-right : 5em;
 }
+
+.intro {
+  text-align : center;
+}
+
+.heading {
+  text-align : center;
+}
+
+.link {
+  text-align : center;
+}
+
+.toc {
+  text-align : center;
+}
+
+.date {
+  float : right;
+}
+
 .katex {
-  font-size : 1.5em;
+  font-size : 1.2em;
 }
 
 

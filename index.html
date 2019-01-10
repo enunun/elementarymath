@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- KaTeX -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
-    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" 
+    integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" 
+      integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" 
+      integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
+
+    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: 
+      [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/common.css" type="text/css">
     <title>0から始める数学入門</title>
   </head>
   <body>
-    <h1 align="center">0から始める数学入門</h1>
-    <p align="center">いろんなしがらみから解き放たれてのびのびと
+    <h1 class="heading">0から始める数学入門</h1>
+    <p class="intro">いろんなしがらみから解き放たれてのびのびと
       数学を学びたい人向けのサイトです．現在工事中．</p>
-    <div align="center">
+    <div class="link">
       <hr width="800">
       <a href="./introduce.html">本サイトについて</a>
       &emsp;&emsp;<a href="./history.html">更新履歴</a>
       <hr width="800">
     </div>
-    <h2 align="center">目次</h2>
+    <h2 class="toc">目次</h2>
     <ul>
-      <li><a href="./arithmetic/arithmetic.html">
+      <li class="contents"><a href="./arithmetic/arithmetic.html">
           算数のめんどくさいとこまとめ</a>&emsp;
         小学校で学ぶものでめんどくさそうなところをまとめました．
         まずはこちらをちょっとだけ覗いてみよう．</li>
@@ -38,14 +48,8 @@
         ガッツリ数学に浸かりたい人向け．
         内容は私の趣味で決まります．</li>
       <li><a href="./tool/tool.html">その他</a>&emsp;
-        主にLaTeX関連のものがあります．
+        数学と関係があるようなないような事項を書きました．
     </ul>
-
-    <p>$y=Ax$となる．
-    $$
-    \lim_{n \to \infty} a_n = \alpha
-    $$
-    </p>
 
 
   </body>
