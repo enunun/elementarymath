@@ -18,7 +18,21 @@
       [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
 
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <!-- for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- stylesheet -->
+    <script type="text/javascript"> 
+      var ua = navigator.userAgent;
+      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
+        //iPhone & Android
+        document.write('<link rel="stylesheet" href="./css/common_mb.css">');
+      }else{
+        //PC
+        document.write('<link rel="stylesheet" href="./css/common.css">');
+      }
+    </script>
+
     <title>0から始める数学入門</title>
   </head>
   <body>
@@ -26,10 +40,8 @@
     <p class="intro">いろんなしがらみから解き放たれてのびのびと
       数学を学びたい人向けのサイトです．現在工事中．</p>
     <div class="link">
-      <hr width="800">
       <a href="./introduce.html">本サイトについて</a>
       &emsp;&emsp;<a href="./history.html">更新履歴</a>
-      <hr width="800">
     </div>
     <h2 class="toc">目次</h2>
     <ul>

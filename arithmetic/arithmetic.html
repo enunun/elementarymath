@@ -19,7 +19,21 @@
 
 
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <!-- for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- stylesheet -->
+    <script type="text/javascript"> 
+      var ua = navigator.userAgent;
+      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
+        //iPhone & Android
+        document.write('<link rel="stylesheet" href="./css/common_mb.css">');
+      }else{
+        //PC
+        document.write('<link rel="stylesheet" href="./css/common.css">');
+      }
+    </script>
+
     <title>算数のめんどくさいとこまとめ</title>
   </head>
   <body>
@@ -28,7 +42,6 @@
       意外と理解できてなかったりするんだよね</p>
     <div class="link">
       <a href="../index.html">トップに戻る</a>
-      <hr width="800">
     </div>
     <h2 class="toc">目次</h2>
     <ul class="contents">

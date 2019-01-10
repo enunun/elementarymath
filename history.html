@@ -2,7 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <!-- for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- stylesheet -->
+    <script type="text/javascript"> 
+      var ua = navigator.userAgent;
+      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
+        //iPhone & Android
+        document.write('<link rel="stylesheet" href="./css/common_mb.css">');
+      }else{
+        //PC
+        document.write('<link rel="stylesheet" href="./css/common.css">');
+      }
+    </script>
+
+
     <title>更新履歴</title>
   </head>
   <body>
@@ -14,9 +29,8 @@
     <div class="link">
       <a href="index.html">トップに戻る</a>
     </div>
-    <hr width="800">
     <h2>記事の追加</h2>
-    <hr width="800">
+    <hr class="boundary">
     <h2>本サイトの歩み</h2>
     <ul>
       <li>2019/01/09「0から始める数学入門」設立</li>
