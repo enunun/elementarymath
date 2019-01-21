@@ -6,20 +6,8 @@ body {
 }
 
 .stage {
-  font-weight : bold;
-}
-
-.contents {
-  font-weight : normal;
-}
-
-ul.stage {
-  list-style-type : none;
-}
-
-li.stage {
-  padding-top : 0.7%;
-  padding-bottom : 0.7%;
+  font-size : 100%;
+  line-height : 0.5em;
 }
 
 ul.contents {
