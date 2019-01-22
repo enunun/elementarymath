@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- KaTeX -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" 
+    integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" 
+      integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" 
+      integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
+
+    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: 
+      [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
+
+
+    <meta charset="utf-8">
+    <!-- for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- stylesheet -->
+    <script type="text/javascript"> 
+      var ua = navigator.userAgent;
+      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
+        //iPhone & Android
+        document.write('<link rel="stylesheet" href="../../css/common_mb.css">');
+      }else{
+        //PC
+        document.write('<link rel="stylesheet" href="../../css/common.css">');
+      }
+    </script>
+
+    <title>割合</title>
+  </head>
+  <body>
+    <h1 class="heading">割合</h1>
+    <p class="intro">くもわってなんやねん滅びろ</p>
+    <div class="link">
+      <a href="../../index.html">トップに戻る</a>
+      &emsp;&emsp;
+      <a href="./arithmetic.html">算数まとめの目次</a>
+    </div>
+
+    <p>
+      数には大小がある．「$2$は$1$より大きい」は
+      正しい主張で，「$4$は$2$より小さい」は
+      誤った主張である．
+    </p>
+
+    <p>
+      $2$つの数が与えられたとき，
+      どちらが大きいかだけでなく，
+      どのくらい大きいかということも考えることができる．
+      「$2$は$1$より$1$だけ大きい」や
+      「$4$は$2$より$2$だけ大きい」
+      といった具合である．
+      この主張を記号「$\lt$」を使って
+      $1 \lt 2$や$2 \lt 4$のように表すのであった．
+      また，$1 \lt 2$や$2 \lt 4$が成り立っているということは，
+      $1+1=2$や$2+2=4$が成り立っているということ
+      にほかならない．
+      $1$になんらかの（正の）数を足して$2$が
+      得られるのだから，$2$は$1$より大きい
+      （同じことだが$1$は$2$より小さい）といえるのである．
+    </p>
+
+    <p>
+      数の大小は別の測り方もできる．
+      $1$と$2$の大小を考えるときに
+      $1 + \square = 2$
+      となるような$\square$を探したように，
+      $1 \times \square = 2$となるような$\square$を考えるのである．
+      この$\square$は当然$2$であって，$1 \times 2 = 2$が
+      成り立っている．同様に，$2 \times 2 = 4$が成り立っているから
+      $2 \lt 4$であるといえる．
+      また，$2 \times 0.5 = 1$や$4 \times 0.5 = 2$が
+      成り立っている．しかしこの場合は
+      $2 \lt 1$や$4 \lt 2$が成り立っているとはいえない．
+      $2 \times \square = 1$や$4 \times \square =2$となる
+      $\square$を考えたとき，
+      この$\square$は$1$より大きくないからである．
+    </p>
+
+    <p>
+      数の大小を測るやり方を$2$つ考えてみたが，
+      掛け算を使ったやり方はちょっと使いにくいように思える．
+      実際，$0 \lt 2$が成り立っているが，
+      足し算を使ったやり方では
+      「$0 + 2 =2$だから$0 \lt 2$だ」
+      というようにいえるが，$0 \times 2 = 2$となるような
+      $1$より大きい$\square$が存在するかどうかを
+      考えると，もちろんそんな$\square$は
+      存在しない．（フツーの数の範囲で考えるのなら）
+      たとえ$\square$がいくつであろうとも，
+      $0 \times \square = 0$となってしまい，
+      $2$となることはないからである．
+      また，負の数と正の数との大小を考えたいというときにも
+      おかしなことになってしまう．
+      例えば$-2$と$1$との大小を考えるとき，
+      $-2 + \square = 1$となる$\square$を考えると
+      この$\square$は$3$となり
+      （すなわち$-2 + 3 = 1$が
+      成り立っている），$-2 \lt 1 $であるといえる．
+      しかし$-2 \times \square = 1$となる$\square$を
+      考えると，この$\square$は（理由は省くが）
+      $- 0.5$となり，$1$より大きくはない．
+      従って，「数の大小を測る」という目的に
+      限って考えれば，掛け算を使ったやり方は，
+      足し算を使ったやり方に比べて圧倒的に使いにくいことがわかる．
+    </p>
+
+    <p>
+      ところが，「どちらが大きいか」だけでなく
+      「どのくらい大きいか」にも焦点を当ててみると
+      事情が変わってくる．
+      例えば$100$と$200$の大小を考えると，
+      $100 \times 2 = 200$だから$100 \lt 200$であるといえる．
+      $100 \times \square = 200$となる$\square$と
+      $2 \times \square = 4$となる$\square$は
+      同じである．
+      極端な例として$100000$と$50000$の大小を考えてみると，
+      $50000 \times 2 = 100000$だから$50000 \lt 100000$ということになる．
+      やはり$2$が登場した．
+      掛け算を使った大小の比較は，
+      「どのくらい大きいか」ということを表す指標を，
+      その数値の桁数，つまり数値のスケールによらずに
+      表してくれるのである．
+    </p>
+
+    <p>
+      以上のように数の大小を考えるとき，
+      通常大きい方の数を基準にして，小さい方の数が
+      どのくらい小さいかを考えることが多い．
+      $100$と$200$の例でいえば，$100 \times \square =200$
+      となる$\square$ではなく$200 \times \square = 100$となる
+      $\square$を考えるほうが多いということである．
+      この$\square$は$0.5$だから，$100$は$200$の半分を
+      占めているということになる．
+    </p>
+  </body>
+</html>
+
