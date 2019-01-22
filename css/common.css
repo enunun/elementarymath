@@ -6,6 +6,10 @@ body {
   margin-right : 8%;
 }
 
+p {
+  text-indent : 1em;
+}
+
 .stage {
   font-size : 100%;
   line-height : 0.5em;
@@ -49,7 +53,9 @@ li.contents {
 }
 
 .katex {
-  font-size : 1.2em;
+  font-size : 1.1em;
+  padding-left : 0.2em;
+  padding-right : 0.2em;
 }
 
 
