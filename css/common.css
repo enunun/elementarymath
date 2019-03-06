@@ -10,6 +10,16 @@ p {
   text-indent : 1em;
 }
 
+img {
+  width : 70%;
+}
+
+.figure {
+  max-width : 40%;
+  margin : 0 auto;
+  text-align : center;
+}
+
 .stage {
   font-size : 100%;
   line-height : 0.5em;

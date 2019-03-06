@@ -9,6 +9,11 @@ p {
   text-indent : 1em;
 }
 
+.figure {
+  text-align : center;
+  margin : 0 auto;
+}
+
 .stage {
   font-size : 100%;
   line-height : 0.5em;
