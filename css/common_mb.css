@@ -9,7 +9,12 @@ p {
   text-indent : 1em;
 }
 
+img {
+  width : 50%;
+}
+
 .figure {
+  max-width : 60%;
   text-align : center;
   margin : 0 auto;
 }
