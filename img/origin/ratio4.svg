@@ -72,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,11 +92,11 @@
        y="91.380951"
        x="0"
        height="40.82143"
-       width="209.39882"
+       width="205.61906"
        id="rect10"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
-       transform="matrix(2.158956,0,0,2.158956,49.536106,-15.484838)"
+       transform="matrix(2.158956,0,0,2.158956,46.361104,-15.484838)"
        title="50"
        style="fill:#000000;stroke-width:0.46318683"
        id="equation_02">

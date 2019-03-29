@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="290.52084mm"
+   height="143.49548mm"
+   viewBox="0 0 290.52085 143.49547"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="ratio7.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="512.52398"
+     inkscape:cy="321.60188"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1213"
+     inkscape:window-height="745"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path931"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient2305"
+       inkscape:collect="always">
+      <stop
+         id="stop2301"
+         offset="0"
+         style="stop-color:#808080;stop-opacity:1;" />
+      <stop
+         id="stop2303"
+         offset="1"
+         style="stop-color:#808080;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.95361456,0,0,1.1618624,0.12547575,-14.743729)"
+       gradientUnits="userSpaceOnUse"
+       y2="111.79167"
+       x2="107.21125"
+       y1="111.79167"
+       x1="-0.62209356"
+       id="linearGradient2307"
+       xlink:href="#linearGradient2305"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2305"
+       id="linearGradient86"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95361456,0,0,1.1618624,0.12547575,79.323608)"
+       x1="-0.62209356"
+       y1="111.79167"
+       x2="107.21125"
+       y2="111.79167" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0.95286704,-90.42836)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="レイヤー 1">
+    <rect
+       style="opacity:1;fill:url(#linearGradient2307);fill-opacity:1;stroke:#808080;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817"
+       width="100.92421"
+       height="28.984318"
+       x="0.48585281"
+       y="100.65065" />
+    <rect
+       y="91.42836"
+       x="0.047132961"
+       height="47.428886"
+       width="243.0957"
+       id="rect10"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="equation_01"
+       style="fill:#000000;stroke:none;stroke-width:0.35117057;stroke-opacity:1"
+       title="1"
+       transform="matrix(2.8464664,0,0,2.8487721,43.893331,39.799506)">
+      <defs
+         id="defs1137">
+        <path
+           d="m 2.929016,-6.37609 c 0,-0.239103 0,-0.259028 -0.229141,-0.259028 -0.617683,0.637609 -1.494396,0.637609 -1.8132,0.637609 v 0.308842 c 0.199253,0 0.787049,0 1.305106,-0.259029 v 5.160647 c 0,0.358655 -0.029888,0.478207 -0.926526,0.478207 H 0.946451 V 0 c 0.348692,-0.029888 1.215442,-0.029888 1.613948,-0.029888 0.398506,0 1.265255,0 1.613947,0.029888 V -0.308842 H 3.855542 c -0.896638,0 -0.926526,-0.109589 -0.926526,-0.478207 z"
+           id="equation_01_00"
+           inkscape:connector-curvature="0" />
+      </defs>
+      <g
+         id="equation_01_g"
+         style="stroke:none;stroke-width:0.35117057;stroke-opacity:1">
+        <use
+           x="76.712326"
+           xlink:href="#equation_01_00"
+           y="62.764633"
+           id="use1139"
+           width="100%"
+           height="100%"
+           style="stroke:none;stroke-width:0.35117057;stroke-opacity:1" />
+      </g>
+    </g>
+    <rect
+       y="194.7171"
+       x="0.48585281"
+       height="28.984318"
+       width="100.92421"
+       id="rect82"
+       style="opacity:1;fill:url(#linearGradient86);fill-opacity:1;stroke:#808080;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect84"
+       width="243.0957"
+       height="47.428886"
+       x="0.047132961"
+       y="185.49495" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 129.01772,153.19379 v 17.29767"
+       id="path88"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.05187416px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.61298007;stroke-opacity:1"
+       x="250.18304"
+       y="123.25706"
+       id="text907"
+       transform="scale(0.99959525,1.0004049)"><tspan
+         sodipodi:role="line"
+         x="250.18304"
+         y="123.25706"
+         id="tspan905"
+         style="stroke-width:0.61298007"><tspan
+           x="250.18304"
+           y="123.25706"
+           style="stroke:none;stroke-width:0.61298007;stroke-opacity:1"
+           id="tspan903">全体</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.05187416px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.61298007;stroke-opacity:1"
+       x="108.54478"
+       y="122.84673"
+       id="text913"
+       transform="scale(0.99959522,1.0004049)"><tspan
+         sodipodi:role="line"
+         x="108.54478"
+         y="122.84673"
+         id="tspan911"
+         style="stroke-width:0.61298007"><tspan
+           x="108.54478"
+           y="122.84673"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.61298007;stroke-opacity:1"
+           id="tspan909">部分</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.05187416px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.61298007;stroke-opacity:1"
+       x="109.05794"
+       y="216.26448"
+       id="text901"
+       transform="scale(0.99959522,1.0004049)"><tspan
+         sodipodi:role="line"
+         x="109.05794"
+         y="216.26448"
+         id="tspan899"
+         style="stroke-width:0.61298007"><tspan
+           x="109.05794"
+           y="216.26448"
+           style="stroke:none;stroke-width:0.61298007;stroke-opacity:1"
+           id="tspan897">割合</tspan></tspan></text>
+  </g>
+</svg>

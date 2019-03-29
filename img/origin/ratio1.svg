@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="211.39882mm"
-   height="66.943092mm"
-   viewBox="0 0 211.39882 66.943092"
+   width="247.98402mm"
+   height="42.82143mm"
+   viewBox="0 0 247.98403 42.82143"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-460.17675"
-     inkscape:cy="-59.077615"
+     inkscape:cx="383.26933"
+     inkscape:cy="-59.077616"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -79,7 +79,7 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1,-66.259289)">
+     transform="translate(1,-90.380951)">
     <rect
        y="99.318459"
        x="0.37790641"
@@ -143,7 +143,7 @@
        title="200"
        style="fill:#000000;stroke-width:0.46492106"
        id="equation_01"
-       transform="matrix(2.1509028,0,0,2.1509028,6.852069,-54.469842)">
+       transform="matrix(2.1509028,0,0,2.1509028,50.697307,-16.59663)">
       <defs
          id="defs2368">
         <path
