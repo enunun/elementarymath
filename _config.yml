@@ -7,4 +7,4 @@ plugins:
 github: [metadata]
 repository: enunun/elementarymath
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
