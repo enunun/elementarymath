@@ -14,9 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" 
       integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
 
-    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: 
+    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters:
       [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
-
 
     <meta charset="utf-8">
     <!-- for mobile -->
@@ -27,27 +26,16 @@
       var ua = navigator.userAgent;
       if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
         //iPhone & Android
-        document.write('<link rel="stylesheet" href="../css/common_mb.css">');
+        document.write('<link rel="stylesheet" href="../../css/common_mb.css">');
       }else{
         //PC
-        document.write('<link rel="stylesheet" href="../css/common.css">');
+        document.write('<link rel="stylesheet" href="../../css/common.css">');
       }
     </script>
 
-    <title>その他</title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1 class="heading">その他</h1>
-    <p class="intro">知っていると便利</p>
-    <div class="link">
-      <a href="../index.html">トップに戻る</a>
-    </div>
-    <h2 class="toc">目次</h2>
-    <ul class="article">
-      <li><a>$\LaTeX$ってなぁに</a>&emsp;
-        WYSIWYG方式とマークアップ言語方式の話</li>
-      <li><a>SATySFiを使おう</a>&emsp;
-        $21$世紀を生きる我々はこっち</li>
-    </ul>
+    {{ content }}
   </body>
 </html>

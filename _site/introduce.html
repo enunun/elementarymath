@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- KaTeX -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+  <!-- KaTeX -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
     integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" 
-      integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
+    integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm"
+    crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" 
-      integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
+    integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH"
+    crossorigin="anonymous"></script>
 
-    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: 
-      [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
+  <script>$(document).ready(function () {
+      renderMathInElement(document.body, {
+        delimiters:
+          [{ left: "$$", right: "$$", display: true }, { left: "$", right: "$", display: false }]
+      })
+    });</script>
 
-    <meta charset="utf-8">
-    <!-- for mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8">
+  <!-- for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- stylesheet -->
+  <script type="text/javascript">
+    var ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1) {
+      //iPhone & Android
+      document.write('<link rel="stylesheet" href="./css/common_mb.css">');
+    } else {
+      //PC
+      document.write('<link rel="stylesheet" href="./css/common.css">');
+    }
+  </script>
+  <title>本サイトについて</title>
+</head>
 
-    <!-- stylesheet -->
-    <script type="text/javascript"> 
-      var ua = navigator.userAgent;
-      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
-        //iPhone & Android
-        document.write('<link rel="stylesheet" href="./css/common_mb.css">');
-      }else{
-        //PC
-        document.write('<link rel="stylesheet" href="./css/common.css">');
-      }
-    </script>
-
-    <title>本サイトについて</title>
-  </head>
-  <body>
-    <h1 class="heading" id="本サイトについて">本サイトについて</h1>
+<body>
+  <h1 class="heading" id="本サイトについて">本サイトについて</h1>
 
 <div class="link">
 <a href="index.html">トップに戻る</a>
@@ -89,5 +95,6 @@
 
 <p class="date">2019年4月1日</p>
 
-  </body>
+</body>
+
 </html>

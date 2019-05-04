@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- KaTeX -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+  <!-- KaTeX -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
     integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" 
-      integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
+    integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm"
+    crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" 
-      integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
+    integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH"
+    crossorigin="anonymous"></script>
 
-    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: 
-      [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
+  <script>$(document).ready(function () {
+      renderMathInElement(document.body, {
+        delimiters:
+          [{ left: "$$", right: "$$", display: true }, { left: "$", right: "$", display: false }]
+      })
+    });</script>
 
-    <meta charset="utf-8">
-    <!-- for mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8">
+  <!-- for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- stylesheet -->
+  <script type="text/javascript">
+    var ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1) {
+      //iPhone & Android
+      document.write('<link rel="stylesheet" href="./css/common_mb.css">');
+    } else {
+      //PC
+      document.write('<link rel="stylesheet" href="./css/common.css">');
+    }
+  </script>
+  <title>トップページ</title>
+</head>
 
-    <!-- stylesheet -->
-    <script type="text/javascript"> 
-      var ua = navigator.userAgent;
-      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
-        //iPhone & Android
-        document.write('<link rel="stylesheet" href="./css/common_mb.css">');
-      }else{
-        //PC
-        document.write('<link rel="stylesheet" href="./css/common.css">');
-      }
-    </script>
-
-    <title>トップページ</title>
-  </head>
-  <body>
-    <h1 class="heading" id="0から始める数学入門">0から始める数学入門</h1>
+<body>
+  <h1 class="heading" id="0から始める数学入門">0から始める数学入門</h1>
 
 <p class="intro">いろんなしがらみから解き放たれてのびのびと
 数学を学びたい人向けのサイトです．現在工事中．</p>
@@ -50,76 +56,72 @@
 
 <h3 class="stage" id="超初心者向け">超初心者向け</h3>
 
-<ul class="contents">
-  <li><a href="/beginner/arithmetic/arithmetic.html">算数のめんどくさいとこまとめ</a> 
-学校で学ぶものでめんどくさそうなところのまとめ</li>
-</ul>
+<h4 id="算数のめんどくさいとこまとめ"><a href="./beginner/arithmetic/arithmetic.html">算数のめんどくさいとこまとめ</a></h4>
+
+<p>小学校で学ぶものでめんどくさそうなところのまとめ</p>
 
 <h3 class="stage" id="一般向け">一般向け</h3>
 
-<ul class="contents">
-  <li>代数学（初級編） 
-おおざっぱにいうと「計算」に関する理論</li>
-</ul>
-<ul class="contents">
-  <li>幾何学（初級編） 
-きれいな図形」とはいったいなんなのか</li>
-</ul>
-<ul class="contents">
-  <li>代数幾何学（初級編） 
-座標とかその周辺</li>
-</ul>
-<ul class="contents">
-  <li>確率論（初級編） 
-だいたい高校レベルくらいまで</li>
-</ul>
+<h4 class="contents" id="代数学初級編">代数学（初級編）</h4>
+
+<p>おおざっぱにいうと「計算」に関する理論</p>
+
+<h4 class="contents" id="幾何学初級編">幾何学（初級編）</h4>
+
+<p>きれいな図形」とはいったいなんなのか</p>
+
+<h4 class="contents" id="解析代数幾何学初級編">解析・代数幾何学（初級編）</h4>
+
+<p>座標とかその周辺</p>
+
+<h4 class="contents" id="確率論初級編">確率論（初級編）</h4>
+
+<p>だいたい高校レベルくらいまで</p>
 
 <h3 class="stage" id="標準レベル">標準レベル</h3>
-<ul class="contents">
-  <li>微分積分学（一般論） 
-具体的な計算はとりあえずおいておく</li>
-</ul>
-<ul class="contents">
-  <li>初等関数 
-具体的な関数のお話</li>
-</ul>
-<ul class="contents">
-  <li>線形代数学 
-ベクトルもここ</li>
-</ul>
+
+<h4 class="contents" id="微分積分学一般論">微分積分学（一般論）</h4>
+
+<p>具体的な計算はとりあえずおいておく</p>
+
+<h4 class="contents" id="初等関数">初等関数</h4>
+
+<p>具体的な関数のお話</p>
+
+<h4 class="contents" id="線形代数学">線形代数学</h4>
+
+<p>ベクトルもここ</p>
 
 <h3 class="stage" id="専門レベル">専門レベル</h3>
 
-<ul class="contents">
-  <li>数理論理学 
-ゲーデルの不完全性定理を理解しよう</li>
-</ul>
+<h4 class="contents" id="数理論理学">数理論理学</h4>
+
+<p>ゲーデルの不完全性定理を理解しよう</p>
 
 <h3 class="stage" id="ぱしょこん関連">ぱしょこん関連</h3>
 
-<ul class="contents">
-  <li>$\LaTeX$ 
-文書をラクチンに書きたいよね</li>
-</ul>
-<ul class="contents">
-  <li>SATySFi 
-$\LaTeX$ユーザーはこっちも触れておくべき</li>
-</ul>
-<ul class="contents">
-  <li>Git 
-バージョン管理はコンピュータにやらせるべきでしょ</li>
-</ul>
-<ul class="contents">
-  <li>markdown 
-メモ書きとかにとてもよい</li>
-</ul>
+<h4 class="contents" id="latex"><a href="./tool/latex/latex.html">$\LaTeX$</a></h4>
+
+<p>文書をラクチンに書きたいよね</p>
+
+<h4 class="contents" id="satysfi">SATySFi</h4>
+
+<p>$\LaTeX$ユーザーはこっちも触れておくべき</p>
+
+<h4 class="contents" id="git">Git</h4>
+
+<p>バージョン管理はコンピュータにやらせるべきでしょ</p>
+
+<h4 class="contents" id="markdown">markdown</h4>
+
+<p>メモ書きとかにとてもよい</p>
 
 <h3 class="stage" id="小言">小言</h3>
 
-<ul class="contents">
-  <li>よくある誤解 
-別に難しい話をするわけではない</li>
-</ul>
+<h4 class="contents" id="よくある誤解">よくある誤解</h4>
 
-  </body>
+<p>別に難しい話をするわけではない</p>
+
+</body>
+
 </html>

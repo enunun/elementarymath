@@ -1,5 +1,5 @@
 ---
-layout: secondstage
+layout: article
 title: 算数のめんどくさいとこまとめ
 ---
 
@@ -17,7 +17,7 @@ title: 算数のめんどくさいとこまとめ
 ## 目次
 {: .toc}
 
-+ [割合](./ratio.html)&ensp;
++ 割合&ensp;
 つまずきの原因の大半はこれ
 {: .article}
 + 単位と助数詞&ensp;
@@ -29,6 +29,3 @@ $1 \, \mathrm{cm}$と$1$個は明らかに違う
 + 分数の割り算&ensp;
 そういえばなんで分母と分子をひっくり返すんだろう
 {: .article}
-
-
-

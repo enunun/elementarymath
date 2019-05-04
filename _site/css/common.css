@@ -26,17 +26,26 @@ strong {
 
 .stage {
   font-size : 100%;
-  line-height : 0.5em;
+  line-height : 1em;
 }
 
+/*h4 {
+  display: inline;
+}*/
+
+.contents {
+  display: inline;
+}
+/*
 ul.contents {
   list-style-type : disc;
 }
 
-li.contents {
+ li.contents {
   padding-top : 0.5%;
   padding-bottom : 0.5%;
 }
+*/
 
 .article {
   padding-top : 0%;

@@ -6,3 +6,4 @@ plugins:
   - jekyll-github-metadata
 github: [metadata]
 repository: enunun/elementarymath
+theme: jekyll-theme-midnight
