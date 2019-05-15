@@ -13,6 +13,10 @@ img {
   width : 80%;
 }
 
+strong {
+  color : red;
+}
+
 .fig {
   max-width : 80%;
   text-align : center;
@@ -20,17 +24,13 @@ img {
 }
 
 .stage {
-  font-size : 100%;
-  line-height : 0.5em;
+  font-size : 150%;
+  line-height : 1em;
 }
 
-ul.contents {
-  list-style-type : disc;
-}
-
-li.contents {
-  padding-top : 0.5%;
-  padding-bottom : 0.5%;
+.contents {
+  display : inline;
+  font-weight : normal;
 }
 
 .article {
@@ -55,6 +55,7 @@ li.contents {
 
 .toc {
   text-align : center;
+  font-size : 200%;
 }
 
 .date {
@@ -67,4 +68,6 @@ li.contents {
   padding-right : 0.2em;
 }
 
-
+.sns {
+  text-align : center;
+}

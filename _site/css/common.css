@@ -29,13 +29,9 @@ strong {
   line-height : 1em;
 }
 
-/*h4 {
-  display: inline;
-}*/
-
 .contents {
-  display: inline;
-  font-weight: normal;
+  display : inline;
+  font-weight : normal;
 }
 
 .article {
@@ -60,7 +56,7 @@ strong {
 
 .toc {
   text-align : center;
-  font-size: 200%;
+  font-size : 200%;
 }
 
 .date {
