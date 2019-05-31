@@ -107,3 +107,21 @@ $\LaTeX$ユーザーはこっちも触れておくべき
 {: .contents}
 
 別に難しい話をするわけではない
+
+### 著書
+{: .stage}
+
+#### [電磁気学を学ぶための物理数学](./book/electromagnetism/electromagnetism.html)
+{: .contents}
+
+黒歴史でも公開しちゃう
+
+#### [記号論理から始める集合論入門](./book/settheory/settheory.html)
+{: .contents}
+
+多分お蔵入り
+
+#### [しっかり学ぶ微分積分学（仮称）](./book/analysis/analysis.html)
+{: .contents}
+
+現在執筆中
