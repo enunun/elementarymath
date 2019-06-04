@@ -77,6 +77,47 @@ WYSIWYG方式が入力すればすぐに完成形を見れるのに対し，
 人間が作成するのは入力ファイルであるから，試しに入力ファイルがどのようなものかを見てみよう．
 次のコードは$\TeX$を使用するときの入力ファイルの一例である．
 
-```tex:sample.tex
-hogehoge
+```tex:markupsample.tex
+\documentclass{ltjsarticle}
+%
+\usepackage{amsmath} % 数式用
+\usepackage{mleftright} % カッコ
+\usepackage{cleveref} % 相互参照
+%
+\newcommand{\paren}[1]{\mleft ( #1 \mright )} % 丸カッコ
+\newcommand{\apply}[2]{#1 \paren{#2}} % 関数適用
+\newcommand{\derivprime}[1]{#1 ^{\prime}}
+\newcommand{\derivprimetwo}[1]{#1 ^{\prime \prime}}
+%
+\crefname{equation}{式}{式}
+%
+\begin{document}
+%
+\section{接線の方程式}
+\label{sec:tangentline}
+
+関数$\apply{f}{x}$が点$a$で微分可能であるとき，
+その点における曲線$y = \apply{f}{x}$接線の方程式は\cref{eq:tangentline}のようになる．
+\begin{equation}
+  y = \apply{f}{a} + \apply{\derivprime{f}}{a} \paren{x - a} .
+  \label{eq:tangentline}
+\end{equation}
+$x$が十分$a$に近いとき，曲線$y = \apply{f}{x}$とこの接線がほぼ一致するとみなせるので，
+近似式
+\begin{equation}
+  \apply{f}{x} \approx \apply{f}{a} + \apply{\derivprime{f}}{a} \paren{x - a}
+  \label{eq:approxequation1deg}
+\end{equation}
+を得る．
+
+\cref{eq:approxequation1deg}は与えられた関数を1次式で近似するための式であるが，
+2次式で近似したければ以下のようにすればよい．
+
+\begin{equation}
+  \apply{f}{x} \approx \apply{f}{a} + \apply{\derivprime{f}}{a} \paren{x - a} 
+  + \frac{\apply{\derivprimetwo{f}}{a}}{2} \paren{x - a}^2.
+  \label{eq:approxequation2deg}
+\end{equation}
+
+\end{document}
 ```
